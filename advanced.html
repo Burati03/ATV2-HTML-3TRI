@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa Avançada do Google</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Voltar ao Google</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Pesquisa Avançada</h1>
+    <form action="https://www.google.com/search" method="GET" class="advanced-form">
+      <label>
+        Todas estas palavras:
+        <input type="text" name="as_q">
+      </label>
+      <label>
+        Esta frase exata:
+        <input type="text" name="as_epq">
+      </label>
+      <label>
+        Qualquer destas palavras:
+        <input type="text" name="as_oq">
+      </label>
+      <label>
+        Nenhuma destas palavras:
+        <input type="text" name="as_eq">
+      </label>
+      <div class="buttons">
+        <input type="submit" value="Pesquisa Avançada">
+      </div>
+    </form>
+  </main>
+</body>
+</html>
